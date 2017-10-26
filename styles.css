@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0 0 30px 0;
   background-color: #bcbbb8;
 }
 
@@ -11,11 +12,6 @@ header {
   height: 200px;
 }
 
-main > h1 {
-  /*grid-area: sidebar;*/
-
-}
-
 main {
   width: 90%;
   max-width: 1240px;
@@ -24,39 +20,46 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
-
-/*  display: grid;
-  grid-template-columns: [c-one] 1fr [c-two] 1fr [c-three] 1fr [c-four] 1fr;
-  grid-template-rows: [r-one] 100px [r-two] 400px [r-three] 400px [r-four] auto;
-  flex-wrap: wrap;
-  grid-area: article;*/
 }
 
 img {
-  height: 50px;
+  height: 30px;
 }
 
-div > h1,
 nav {
   font-family: "Cinzel Decorative", serif;
   color: #beabaf;
   position: absolute;
+  text-align: center;
+  bottom: 20px;
+}
+
+div > h1 {
+  font-family: "Cinzel Decorative", serif;
+  color: #beabaf;
+  margin: 5px 30px 20px;
+}
+
+nav > h3 {
+  display: inline-block;
+  margin: 2px 5px;
 }
 
 article {
-/*  height: 300px;
-  width: 200px;*/
   font-family: "Raleway", sans-serif;
   background-color: #EDEEE7;
 }
 
+p {
+  margin: 0;
+}
+
 .log-in-area {
-  text-align: right;
+  text-align: center;
 }
 
 .site-name {
-  bottom: 5px;
-  right: 5px;
+  bottom: 50px;
 }
 
 .card-image-one {
@@ -84,7 +87,7 @@ article {
   height: 200px;
   background-image: url(images/witch-tarot.jpg);
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: 50% 79%;
 }
 
 .card-image-five {
@@ -124,6 +127,16 @@ article {
 @media only screen and (min-width: 850px) {
   main {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .log-in-area {
+    text-align: right;
+  }
+
+  .site-name {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
   }
 }
 
