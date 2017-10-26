@@ -1,15 +1,15 @@
 body {
   margin: 0;
   padding: 0 0 30px 0;
+  font-size: 16px;
   background-color: #bcbbb8;
 }
 
 header {
-  /*grid-area: header;*/
   position: relative;
   padding: 1%;
   background-color: #493c4c ;
-  height: 200px;
+  height: 180px;
 }
 
 main {
@@ -23,7 +23,8 @@ main {
 }
 
 img {
-  height: 30px;
+  height: 20px;
+  margin: 0 0 0 5%;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
   position: absolute;
   text-align: center;
   bottom: 20px;
+  width: 100%;
 }
 
 div > h1 {
@@ -55,11 +57,33 @@ p {
 }
 
 .log-in-area {
+  font-family: "Raleway", serif;
+  color: #beabaf;
   text-align: center;
 }
 
 .site-name {
   bottom: 50px;
+}
+
+.whole-card {
+  box-shadow: 3px 3px 3px #392124;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.whole-card:hover {
+  top: -2px;
+  box-shadow: 4px 4px 5px #392124;
+}
+
+.card-body {
+  padding: 14px 14px 20px 14px;
+}
+
+.card-body > h3 {
+  margin: 0px 0px 6px;
 }
 
 .card-image-one {
@@ -129,6 +153,10 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  nav {
+    width: 60%;
+  }
+
   .log-in-area {
     text-align: right;
   }
@@ -143,6 +171,10 @@ p {
 @media screen and (min-width: 1100px) {
   main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  nav {
+    width: 40%;
   }
 }
 
