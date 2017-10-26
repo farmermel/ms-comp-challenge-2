@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  background-color: #bcbbb8;
+}
+
+header {
+  /*grid-area: header;*/
+  position: relative;
+  padding: 1%;
+  background-color: #493c4c ;
+  height: 200px;
+}
+
+main > h1 {
+  /*grid-area: sidebar;*/
+
+}
+
+main {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+
+/*  display: grid;
+  grid-template-columns: [c-one] 1fr [c-two] 1fr [c-three] 1fr [c-four] 1fr;
+  grid-template-rows: [r-one] 100px [r-two] 400px [r-three] 400px [r-four] auto;
+  flex-wrap: wrap;
+  grid-area: article;*/
+}
+
+img {
+  height: 50px;
+}
+
+div > h1,
+nav {
+  font-family: "Cinzel Decorative", serif;
+  color: #beabaf;
+  position: absolute;
+}
+
+article {
+/*  height: 300px;
+  width: 200px;*/
+  font-family: "Raleway", sans-serif;
+  background-color: #EDEEE7;
+}
+
+.log-in-area {
+  text-align: right;
+}
+
+.site-name {
+  bottom: 5px;
+  right: 5px;
+}
+
+.card-image-one {
+  height: 200px;
+  background-image: url(images/witch-brew.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-two {
+  height: 200px;
+  background-image: url(images/witch-candles.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-three {
+  height: 200px;
+  background-image: url(images/witch-bones.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-four {
+  height: 200px;
+  background-image: url(images/witch-tarot.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-five {
+  height: 200px;
+  background-image: url(images/witch-bones-2.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-six {
+  height: 200px;
+  background-image: url(images/witch-book.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.card-image-seven {
+  height: 200px;
+  background-image: url(images/witch-altar.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.card-image-eight {
+  height: 200px;
+  background-image: url(images/witch-incense.jpg);
+  background-size: cover;
+  background-position: 50% 70%;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/*.top-spells {
+  grid-column-start: c-one;
+  grid-column-end: c-two;
+  grid-row-start: r-one;
+  grid-row-end: span r-two;
+}
+
+.art-one {
+  grid-column-start: c-one;
+  grid-column-end: c-two;
+  grid-row-start: r-two;
+  grid-row-end: span r-three;
+}
+
+.art-two {
+  grid-column-start: c-two;
+  grid-column-end: c-three;
+  grid-row-start: r-two;
+  grid-row-end: span r-three;
+}
+
+.art-three {
+  grid-column-start: c-three;
+  grid-column-end: c-four;
+  grid-row-start: r-two;
+  grid-row-end: span r-three;
+}
+
+.art-four {
+  grid-column-start: c-four;
+  grid-column-end: c-three;
+  grid-row-start: r-two;
+  grid-row-end: span r-three;
+}
+
+.art-five {
+  grid-column-start: c-one;
+  grid-column-end: c-two;
+  grid-row-start: r-three;
+  grid-row-end: span r-four;
+}
+
+.art-six {
+  grid-column-start: c-two;
+  grid-column-end: c-three;
+  grid-row-start: r-three;
+  grid-row-end: span r-four;
+}
+
+.art-seven {
+  grid-column-start: c-two;
+  grid-column-end: c-three;
+  grid-row-start: r-two;
+  grid-row-end: span r-three;
+}
+
+*/
+
+
+
+
