@@ -9,7 +9,7 @@ body {
 header {
   position: relative;
   padding: 1% 2% 1% 4%;
-  background-color: #2D1B28;
+  background-color: #2d1b28;
   height: 180px;
 }
 
@@ -40,7 +40,7 @@ nav {
 
 h4 {
   margin: 10px auto 0px;
-  color: #b18d72
+  color: #b18d72;
 }
 
 div > h1 {
@@ -79,6 +79,14 @@ p {
   font-family: "Raleway", serif;
   color: #beabaf;
   text-align: center;
+}
+
+.log-in-area div {
+  text-align: right;
+}
+
+.username {
+  color: #b55f44
 }
 
 .hat-icon {
@@ -123,9 +131,13 @@ img.down-arrow {
 
 .card-body > h5 {
   font-style: italic;
-  background-color: #D6D4CF;
+  background-color: #d6d4cf;
   height: 50px;
   padding: 9px 0 3px 6px;
+}
+
+.card-body .number-display {
+  color: #b55f44;
 }
 
 .card-image {
@@ -150,6 +162,7 @@ img.down-arrow {
 
 .number-display {
   font-size: 2em;
+  font-weight: 600;
 }
 
 .crystal-heart {
@@ -265,65 +278,3 @@ img.down-arrow {
     width: 43%;
   }
 }
-
-/*.top-spells {
-  grid-column-start: c-one;
-  grid-column-end: c-two;
-  grid-row-start: r-one;
-  grid-row-end: span r-two;
-}
-
-.art-one {
-  grid-column-start: c-one;
-  grid-column-end: c-two;
-  grid-row-start: r-two;
-  grid-row-end: span r-three;
-}
-
-.art-two {
-  grid-column-start: c-two;
-  grid-column-end: c-three;
-  grid-row-start: r-two;
-  grid-row-end: span r-three;
-}
-
-.art-three {
-  grid-column-start: c-three;
-  grid-column-end: c-four;
-  grid-row-start: r-two;
-  grid-row-end: span r-three;
-}
-
-.art-four {
-  grid-column-start: c-four;
-  grid-column-end: c-three;
-  grid-row-start: r-two;
-  grid-row-end: span r-three;
-}
-
-.art-five {
-  grid-column-start: c-one;
-  grid-column-end: c-two;
-  grid-row-start: r-three;
-  grid-row-end: span r-four;
-}
-
-.art-six {
-  grid-column-start: c-two;
-  grid-column-end: c-three;
-  grid-row-start: r-three;
-  grid-row-end: span r-four;
-}
-
-.art-seven {
-  grid-column-start: c-two;
-  grid-column-end: c-three;
-  grid-row-start: r-two;
-  grid-row-end: span r-three;
-}
-
-*/
-
-
-
-
