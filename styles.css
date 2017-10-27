@@ -11,6 +11,7 @@ header {
   padding: 1% 2% 1% 4%;
   background-color: #2d1b28;
   height: 180px;
+  /*width: 100vw;*/
 }
 
 main {
@@ -51,7 +52,7 @@ div > h1 {
 
 nav > h3 {
   display: inline-block;
-  margin: 2px 25px 0 0;
+  margin: 2px 25px 0 1vw;
 }
 
 nav > h3:hover {
@@ -59,7 +60,7 @@ nav > h3:hover {
 }
 
 aside > h1 {
-  margin: 3% 0 3% 5%;
+  margin: 3% 0 3% 5vw;
   font-family: "Cinzel Decorative", serif;
   color: #3c2c36;
   /*color: #2D1B28;*/
@@ -81,7 +82,7 @@ p {
   text-align: center;
 }
 
-.log-in-area div {
+.log-in-area h4 {
   text-align: right;
 }
 
@@ -247,7 +248,7 @@ img.down-arrow {
   }
 }
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 900px) {
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -275,6 +276,6 @@ img.down-arrow {
   }
 
   nav {
-    width: 43%;
+    width: 46%;
   }
 }
