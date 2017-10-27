@@ -24,7 +24,7 @@ main {
 }
 
 img {
-  height: 20px;
+  height: 15px;
 }
 
 nav {
@@ -72,6 +72,7 @@ article {
 
 p {
   margin: 0;
+  line-height: 1.5em;
 }
 
 .log-in-area {
@@ -112,11 +113,19 @@ img.down-arrow {
 }
 
 .card-body {
-  padding: 14px 14px 20px 14px;
+  padding: 14px 14px 20px 27px;
 }
 
 .card-body > h3 {
   margin: 0px 0px 6px;
+  color: #3c2c36;
+}
+
+.card-body > h5 {
+  font-style: italic;
+  background-color: #D6D4CF;
+  height: 50px;
+  padding: 9px 0 3px 6px;
 }
 
 .card-image {
